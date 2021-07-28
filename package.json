@@ -1,0 +1,22 @@
+{
+  "name": "yellowapi",
+  "version": "1.0.0",
+  "description": "yellow messenger coding test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "load": "node models/load-cities-data.js"
+  },
+  "author": "Samuel Girsang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "ioredis": "^4.27.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "9878f021-b1d0-4de4-910d-d3e404f33b21",
+		"name": "yellow-messenger-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch covid statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7770?keyword=2021-04-05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7770",
+					"query": [
+						{
+							"key": "keyword",
+							"value": "2021-04-05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch multiple weather (current and forecast)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7770?keyword=Help me with weather in Jakarta, Please give me the forecast of Bandung.",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7770",
+					"query": [
+						{
+							"key": "keyword",
+							"value": "Help me with weather in Jakarta, Please give me the forecast of Bandung."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch multiple weather (current only)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7770?keyword=Weather in Jakarta, Weather in Bandung",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7770",
+					"query": [
+						{
+							"key": "keyword",
+							"value": "Weather in Jakarta, Weather in Bandung"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch multiple weather (current only) Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7770?keyword=Jakarta bandung",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7770",
+					"query": [
+						{
+							"key": "keyword",
+							"value": "Jakarta bandung"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch single weather (current only)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7770?keyword=Jakarta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7770",
+					"query": [
+						{
+							"key": "keyword",
+							"value": "Jakarta"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
