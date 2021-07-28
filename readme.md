@@ -11,4 +11,4 @@ Follow these steps to run this app
 4. $ ./init-redis.sh ## if you dont have docker, download it fist. Then use this command to startd redis for searching and store cache
 5. $ npm run load ## to load name of 40s thousand of cities (for search cities text purpose)
 6. $ npm start
-7. Try to hit the API (see postman collection for the detail)
+7. Try to hit the API (import postman collection for the detail)
