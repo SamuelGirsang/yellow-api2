@@ -1,4 +1,6 @@
-# Yellow API
+# API
+
+Written by Samuel Girsang - July, 29th 2021
 
 This is API for get covid statistics data in US or get weather data according to keyword.
 You can see postman collection the detail
